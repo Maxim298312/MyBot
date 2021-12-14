@@ -1,0 +1,1106 @@
+reflex map version 8
+global
+	entity
+		type WorldSpawn
+		String32 targetGameOverCamera end
+		UInt8 playersMin 1
+		UInt8 playersMax 16
+	brush
+		vertices
+			-936.000000 -1088.000000 1216.000000
+			1064.000000 -1088.000000 1216.000000
+			1064.000000 -1088.000000 -784.000000
+			-936.000000 -1088.000000 -784.000000
+			-936.000000 -1152.000000 1216.000000
+			1064.000000 -1152.000000 1216.000000
+			1064.000000 -1152.000000 -784.000000
+			-936.000000 -1152.000000 -784.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-1120.000000 912.000000 1216.000000
+			-936.000000 912.000000 1216.000000
+			-936.000000 912.000000 -784.000000
+			-1120.000000 912.000000 -784.000000
+			-1120.000000 -1088.000000 1216.000000
+			-936.000000 -1088.000000 1216.000000
+			-936.000000 -1088.000000 -784.000000
+			-1120.000000 -1088.000000 -784.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			1064.000000 912.000000 1216.000000
+			1216.000000 912.000000 1216.000000
+			1216.000000 912.000000 -784.000000
+			1064.000000 912.000000 -784.000000
+			1064.000000 -1088.000000 1216.000000
+			1216.000000 -1088.000000 1216.000000
+			1216.000000 -1088.000000 -784.000000
+			1064.000000 -1088.000000 -784.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-936.000000 1032.000000 1224.000000
+			1064.000000 1032.000000 1224.000000
+			1064.000000 1032.000000 -776.000000
+			-936.000000 1032.000000 -776.000000
+			-936.000000 912.000000 1224.000000
+			1064.000000 912.000000 1224.000000
+			1064.000000 912.000000 -776.000000
+			-936.000000 912.000000 -776.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-936.000000 920.000000 1520.000000
+			1064.000000 920.000000 1520.000000
+			1064.000000 920.000000 1216.000000
+			-936.000000 920.000000 1216.000000
+			-936.000000 -1088.000000 1520.000000
+			1064.000000 -1088.000000 1520.000000
+			1064.000000 -1088.000000 1216.000000
+			-936.000000 -1088.000000 1216.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-936.000000 920.000000 -768.000000
+			1064.000000 920.000000 -768.000000
+			1064.000000 920.000000 -1104.000000
+			-936.000000 920.000000 -1104.000000
+			-936.000000 -1080.000000 -768.000000
+			1064.000000 -1080.000000 -768.000000
+			1064.000000 -1080.000000 -1104.000000
+			-936.000000 -1080.000000 -1104.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	entity
+		type PlayerSpawn
+		Vector3 position 36.000000 -200.000000 224.000000
+		Bool8 teamB 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type CameraPath
+		UInt32 entityIdAttachedTo 249
+		UInt8 posLerp 2
+		UInt8 angleLerp 2
+	entity
+		type Effect
+		Vector3 position 0.000000 256.000000 0.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type PlayerSpawn
+		Vector3 position 856.000000 -1008.000000 784.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 896.000000 -1000.000000 -672.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 264.000000 -992.000000 -640.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -744.000000 -976.000000 232.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -232.000000 -952.000000 -64.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -752.000000 -968.000000 1024.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -240.000000 -1016.000000 488.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -240.000000 -1048.000000 -680.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -816.000000 -1048.000000 -384.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -728.000000 -952.000000 -64.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -552.000000 -1048.000000 1112.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 352.000000 -1048.000000 1120.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -544.000000 -1048.000000 824.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 640.000000 -1048.000000 840.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 912.000000 -1048.000000 -104.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 888.000000 -1048.000000 528.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 888.000000 -1048.000000 232.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 640.000000 -1048.000000 -688.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 32.000000 -1048.000000 -680.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -560.000000 -1048.000000 -696.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -544.000000 -1048.000000 -368.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 304.000000 -1048.000000 528.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 928.000000 -1048.000000 -424.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -240.000000 -1048.000000 216.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 24.000000 -1048.000000 832.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -816.000000 -1048.000000 -704.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 944.000000 -1048.000000 1128.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -544.000000 -1048.000000 -104.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -840.000000 -1048.000000 528.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -848.000000 -1048.000000 824.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -240.000000 -1048.000000 1112.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 40.000000 -1048.000000 1128.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 664.000000 -1048.000000 1128.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -560.000000 -1048.000000 224.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -560.000000 -1048.000000 512.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -232.000000 -1048.000000 -344.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 32.000000 -1048.000000 512.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -248.000000 -1048.000000 824.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 320.000000 -1048.000000 840.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 624.000000 -1048.000000 536.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 16.000000 -1048.000000 232.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 288.000000 -1048.000000 232.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 616.000000 -1048.000000 224.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 8.000000 -1048.000000 -80.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 8.000000 -1048.000000 -360.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 280.000000 -1048.000000 -88.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 296.000000 -1048.000000 -376.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 640.000000 -1048.000000 -416.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 640.000000 -1048.000000 -96.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -744.000000 776.000000 1008.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -840.000000 696.000000 808.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -832.000000 696.000000 512.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -736.000000 768.000000 216.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -552.000000 696.000000 208.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -552.000000 696.000000 496.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -536.000000 696.000000 808.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -544.000000 696.000000 1096.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -232.000000 696.000000 1096.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -240.000000 696.000000 808.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -232.000000 728.000000 472.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 40.000000 696.000000 496.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -232.000000 696.000000 200.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 32.000000 696.000000 816.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 48.000000 696.000000 1112.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 360.000000 696.000000 1104.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 328.000000 696.000000 824.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 312.000000 696.000000 512.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 648.000000 696.000000 824.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 672.000000 696.000000 1112.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 24.000000 696.000000 216.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 296.000000 696.000000 216.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 632.000000 696.000000 520.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 952.000000 696.000000 1112.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 864.000000 736.000000 768.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 896.000000 696.000000 512.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 624.000000 696.000000 208.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 896.000000 696.000000 216.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 920.000000 696.000000 -120.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 648.000000 696.000000 -112.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 288.000000 696.000000 -104.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 16.000000 696.000000 -96.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 16.000000 696.000000 -376.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -224.000000 696.000000 -360.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -224.000000 792.000000 -80.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -536.000000 696.000000 -120.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -536.000000 696.000000 -384.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -552.000000 696.000000 -712.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -808.000000 696.000000 -720.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -808.000000 696.000000 -400.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -720.000000 792.000000 -80.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 936.000000 696.000000 -440.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 648.000000 696.000000 -432.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 648.000000 696.000000 -704.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 904.000000 744.000000 -688.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 304.000000 696.000000 -392.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 272.000000 752.000000 -656.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 40.000000 696.000000 -696.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -232.000000 696.000000 -696.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -744.000000 -96.000000 1016.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -840.000000 -176.000000 816.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -832.000000 -176.000000 520.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -736.000000 -104.000000 224.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -552.000000 -176.000000 216.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -552.000000 -176.000000 504.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -536.000000 -176.000000 816.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -544.000000 -176.000000 1104.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -232.000000 -176.000000 1104.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -240.000000 -176.000000 816.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -232.000000 -144.000000 480.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 40.000000 -176.000000 504.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -232.000000 -176.000000 208.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 32.000000 -176.000000 824.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 48.000000 -176.000000 1120.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 360.000000 -176.000000 1112.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 328.000000 -176.000000 832.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 312.000000 -176.000000 520.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 648.000000 -176.000000 832.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 672.000000 -176.000000 1120.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 296.000000 -176.000000 224.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 632.000000 -176.000000 528.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 952.000000 -176.000000 1120.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 864.000000 -136.000000 776.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 896.000000 -176.000000 520.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 624.000000 -176.000000 216.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 896.000000 -176.000000 224.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 920.000000 -176.000000 -112.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 648.000000 -176.000000 -104.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 288.000000 -176.000000 -96.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 16.000000 -176.000000 -88.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 16.000000 -176.000000 -368.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -224.000000 -176.000000 -352.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -224.000000 -80.000000 -72.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -536.000000 -176.000000 -112.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -536.000000 -176.000000 -376.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -552.000000 -176.000000 -704.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -808.000000 -176.000000 -712.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -808.000000 -176.000000 -392.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -720.000000 -80.000000 -72.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 936.000000 -176.000000 -432.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 648.000000 -176.000000 -424.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 648.000000 -176.000000 -696.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 904.000000 -128.000000 -680.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 304.000000 -176.000000 -384.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 272.000000 -120.000000 -648.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 40.000000 -176.000000 -688.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -232.000000 -176.000000 -688.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -816.000000 -632.000000 -648.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -560.000000 -632.000000 -640.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -544.000000 -632.000000 -312.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -816.000000 -632.000000 -328.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -544.000000 -632.000000 -48.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -728.000000 -536.000000 -8.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -744.000000 -560.000000 288.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -560.000000 -632.000000 568.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -560.000000 -632.000000 280.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -232.000000 -536.000000 -8.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -240.000000 -632.000000 272.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -240.000000 -600.000000 544.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -248.000000 -632.000000 880.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -240.000000 -632.000000 1168.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -552.000000 -632.000000 1168.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -752.000000 -552.000000 1080.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -848.000000 -632.000000 880.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -840.000000 -632.000000 584.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -544.000000 -632.000000 880.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -232.000000 -632.000000 -288.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -240.000000 -632.000000 -624.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 40.000000 -632.000000 1184.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 24.000000 -632.000000 888.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 32.000000 -632.000000 568.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 16.000000 -632.000000 288.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 8.000000 -632.000000 -24.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 280.000000 -632.000000 -32.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 296.000000 -632.000000 -320.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 8.000000 -632.000000 -304.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 640.000000 -632.000000 -360.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 928.000000 -632.000000 -368.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 32.000000 -632.000000 -624.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 264.000000 -576.000000 -584.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 640.000000 -632.000000 -632.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 896.000000 -584.000000 -616.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 304.000000 -632.000000 584.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 640.000000 -632.000000 896.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 320.000000 -632.000000 896.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 664.000000 -632.000000 1184.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 944.000000 -632.000000 1184.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 856.000000 -592.000000 840.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 624.000000 -632.000000 592.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 888.000000 -632.000000 584.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 616.000000 -632.000000 280.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 888.000000 -632.000000 288.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 288.000000 -632.000000 288.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 640.000000 -632.000000 -40.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 912.000000 -632.000000 -48.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 352.000000 -632.000000 1176.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -816.000000 280.000000 -640.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -560.000000 280.000000 -632.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -544.000000 280.000000 -304.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -816.000000 280.000000 -320.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -544.000000 280.000000 -40.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -728.000000 376.000000 0.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -744.000000 352.000000 296.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -560.000000 280.000000 576.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -560.000000 280.000000 288.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -232.000000 376.000000 0.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -240.000000 280.000000 280.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -240.000000 312.000000 552.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -248.000000 280.000000 888.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -240.000000 280.000000 1176.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -552.000000 280.000000 1176.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -752.000000 360.000000 1088.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -848.000000 280.000000 888.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -840.000000 280.000000 592.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -544.000000 280.000000 888.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -232.000000 280.000000 -280.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -240.000000 280.000000 -616.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 40.000000 280.000000 1192.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 24.000000 280.000000 896.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 32.000000 280.000000 576.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 16.000000 280.000000 296.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 8.000000 280.000000 -16.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 280.000000 280.000000 -24.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 296.000000 280.000000 -312.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 8.000000 280.000000 -296.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 640.000000 280.000000 -352.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 928.000000 280.000000 -360.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 32.000000 280.000000 -616.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 264.000000 336.000000 -576.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 640.000000 280.000000 -624.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 896.000000 328.000000 -608.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 304.000000 280.000000 592.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 640.000000 280.000000 904.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 320.000000 280.000000 904.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 664.000000 280.000000 1192.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 944.000000 280.000000 1192.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 856.000000 320.000000 848.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 624.000000 280.000000 600.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 888.000000 280.000000 592.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 616.000000 280.000000 288.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 888.000000 280.000000 296.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 288.000000 280.000000 296.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 640.000000 280.000000 -32.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 912.000000 280.000000 -40.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position 352.000000 280.000000 1184.000000
+		Bool8 teamA 0
+
+

@@ -1,0 +1,17 @@
+"InstallScript"
+{
+	"Run Process"
+	{
+		"LocalAppDataInstall"
+		{
+			"HasRunKey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\824270"
+			"process 1"		"cmd.exe"
+			"command 1"		"/c call \"%INSTALLDIR%\\Engine\\Extras\\copysavtolocalappdata.bat\""
+			"NoCleanUp"		"1"
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"21c3029650b065a0779ccc2a7b3e3ee82d96617252fabd6fb8b6e61decb9871b4d3a1e581a58a4af99ccf0e18e1835437acb5a416ba75c4e9a1df7dc298dea89b4b3e1c2571f5f55812d423b17cae4fc564800fe70f39919b82dcbe6414d48e4a7381cd974d5c953099f7ba0754c7fb14e2a7119dea85dddda192d0c843a7cad"
+}
